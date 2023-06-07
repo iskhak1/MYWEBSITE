@@ -1,0 +1,30 @@
+.body{
+    background-color: black;
+    font-family: 'Cinzel', serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.header_button{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.header_button:hover{
+    border: 5px #ffe602;
+    color: #ffe602;
+}
+.headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 10%;
+    color: #ffe602 ;
+}
